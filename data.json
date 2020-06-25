@@ -1,0 +1,71 @@
+{
+    "teachers": [
+        {
+            "id": 1,
+            "name": "FELIPE",
+            "avatar_url": "http://google.com",
+            "birth": 800236800000,
+            "schooling": "Superior Completo",
+            "type": "distancia",
+            "area": "Matemática",
+            "created_at": 1593029283522
+        },
+        {
+            "id": 2,
+            "name": "FELIPE2",
+            "avatar_url": "https://rogersbh.org/application/files/thumbnails/small/2815/3632/7168/podcastblog2.jpg",
+            "birth": 800236800000,
+            "schooling": "Superior Completo",
+            "type": "distancia",
+            "area": "Matemática,Geografia",
+            "created_at": 1593029283522
+        },
+        {
+            "id": 4,
+            "name": "Douglas",
+            "avatar_url": "http://google.com",
+            "birth": 694224000000,
+            "schooling": "Mestrado",
+            "type": "distancia",
+            "area": "Informática, Geografia",
+            "created_at": 1593029283522
+        },
+        {
+            "id": 5,
+            "name": "Rosiane",
+            "avatar_url": "http://google.com",
+            "birth": -445046400000,
+            "schooling": "Superior Completo",
+            "type": "presencial",
+            "area": "História , Português",
+            "created_at": 1593034453108
+        },
+        {
+            "id": 6,
+            "name": "Ghabi",
+            "avatar_url": "https://rogersbh.org/application/files/thumbnails/small/2815/3632/7168/podcastblog2.jpg",
+            "birth": 800236800000,
+            "type": "distancia",
+            "area": "Matemática",
+            "created_at": 1593046175934
+        },
+        {
+            "id": 7,
+            "name": "FELIPE",
+            "avatar_url": "https://rogersbh.org/application/files/thumbnails/small/2815/3632/7168/podcastblog2.jpg",
+            "birth": 800236800000,
+            "type": "distancia",
+            "area": "Matemática",
+            "created_at": 1593046206306
+        },
+        {
+            "id": 8,
+            "name": "FELIPE2",
+            "avatar_url": "https://rogersbh.org/application/files/thumbnails/small/2815/3632/7168/podcastblog2.jpg",
+            "birth": 800236800000,
+            "type": "distancia",
+            "area": "Matemática",
+            "created_at": 1593046300639
+        }
+    ]
+}

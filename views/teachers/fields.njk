@@ -1,0 +1,38 @@
+<div class="item">
+    <div>Nome</div>
+    <div><input type="text" name="name" placeholder="Nome" value="{{teachers.name}}"></div>
+</div>
+
+<div class="item">
+    <div>Ano de Nascimento</div>
+    <div><input type="date" name="birth" value="{{teachers.birth}}"></div>
+</div>
+<div class="item">
+    <div>Escolaridade</div>
+    <div>
+        <select name="schooling">
+            <option value="none" data-default disabled selected>{{teachers.schooling}}</option>
+            <option value="Médio">Ensino médio</option>
+            <option value="Superior Completo">Ensino superior</option> 
+            <option value="Mestrado">Mestredo</option> 
+            <option value="Doutorado">Doutorado</option> 
+        </select>
+    </div>
+</div>
+<div class="item">
+    <div>Tipo de aula</div>
+    <div id="radio">
+        <span><input type="radio" name="type" value="presencial" {% if teachers.type == "presencial" %} checked
+        {% endif %}>  Presencial</span>
+        <span><input type="radio" name="type" value="distancia" {% if teachers.type == "distancia" %} checked
+        {% endif %}>  À distância</span>
+    </div>
+</div>
+<div class="item">
+    <div>Área de Atuação:</div>
+    <div><input type="text" name="area" placeholder="Área de atuação" value="{{teachers.area}}"></div>
+</div>
+<div class="item">
+    <div>Avatar</div>
+    <div><input type="url" name="avatar_url" placeholder="https://" value="{{teachers.avatar_url}}"></div>
+</div>

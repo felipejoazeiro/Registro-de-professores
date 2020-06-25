@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+:root{
+    --primary-color:rgb(229, 235, 243);
+}
+*{
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+body{
+    background-color: rgb(71, 56, 77);
+}
+.links{
+    width: 80%;
+    margin: 0 auto;
+    border-radius: 0 0 25px 25px;
+    box-sizing: border-box;
+    text-align: center;
+    padding: 32px;
+    background-color: var(--primary-color);
+}
+.links a{
+    font-family: 'Roboto', sans-serif;
+    color: rgb(119, 104, 104);
+    font-size: 24px;
+    text-decoration: none;
+    position: relative;
+}
+.links a.active{
+    font-weight: bold;
+}
+.links a + a{
+    margin-left: 85px;
+}
+.links a:hover{
+    color: rgb(204, 98, 98);
+    transition: all 400ms ease-in-out;
+}
+.links a::after{
+    content: '';
+    width: 0%;
+    height: 1.5px;
+    background-color: black;
+    position: absolute;
+    left: 50%;
+    bottom: -4px;
+}
+.links a:hover::after{
+    width:100%;
+    left:0;
+    transition: all 400ms ease-in-out
+}
+
+
+/*=== CARD ===*/
+
+.card{
+    background-color: var(--primary-color);
+    width: 800px;
+    min-height: 400px;
+    position: relative;
+    box-shadow: 0px 0px 6px 12px rgba(0,0,0,0.1);
+    margin: 48px auto;
+    display: grid;
+    grid-template-columns: 40% 60%;
+    animation: swap 500ms ease-in-out;
+}
+@keyframes swap{
+    from{
+        transform: rotateY(90deg);
+    }
+    to{
+        opacity: 1;
+    }
+}
+
+.item{
+    font-family: 'Roboto', sans-serif;
+}
+
+.item{
+    border-top: solid 1px black;
+    padding-left: 0.5em;
+}
+.item:first-child{
+    border-bottom: solid 1px black;
+    border-top: none;
+    margin-bottom: 8%;
+}
+.item:nth-child(2){
+    border: none;
+}
+.item:last-child{
+    position: absolute;
+    width: 60%;
+    bottom: 0;
+}
+
+.item div:nth-child(1){
+    font-size: 18px;
+    line-height: 24px;
+    color: brown;
+    letter-spacing: 0.8px;
+    font-weight: bold;
+}
+.item div:nth-child(2){
+    color: rgb(153, 145, 145);
+    text-transform: uppercase;
+}
+.details .item span{
+    display: block;
+    margin: 5px;
+    color: rgb(26, 25, 25);
+    border-radius: 25px;
+    text-align: center;
+    width: 115px;
+    padding: 4px;
+    background-color: rgb(138, 106, 96);
+}
+
+a.button{
+    display: block;
+    position: absolute;
+    width: 15%;
+    top: 0;
+    right: 0;
+    padding-top: 2px;
+    height: 9.8%;
+    font-weight: bold;
+    font-size: 14px;
+    color: rgb(138, 106, 96);
+    text-decoration: none;
+    text-align: center;
+    text-transform: uppercase;
+    background-color: rgb(245, 205, 97);
+    border: 1px solid rgba(0,0,0,0.1);
+    border-radius: 0 0 0 25px;
+}
+a.button:hover{
+    width:30%;
+    padding-top: 12px;
+    height: 7.3%;
+}
