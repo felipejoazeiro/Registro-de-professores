@@ -1,23 +1,13 @@
 {
     "teachers": [
         {
-            "id": 1,
-            "name": "FELIPE",
-            "avatar_url": "http://google.com",
-            "birth": 800236800000,
-            "schooling": "Superior Completo",
-            "type": "distancia",
-            "area": "Matemática",
-            "created_at": 1593029283522
-        },
-        {
             "id": 2,
             "name": "FELIPE2",
-            "avatar_url": "https://rogersbh.org/application/files/thumbnails/small/2815/3632/7168/podcastblog2.jpg",
+            "avatar_url": "https://images.unsplash.com/photo-1567168539593-59673ababaae?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80",
             "birth": 800236800000,
             "schooling": "Superior Completo",
             "type": "distancia",
-            "area": "Matemática,Geografia",
+            "area": "Matemática , Geografia",
             "created_at": 1593029283522
         },
         {
@@ -48,24 +38,6 @@
             "type": "distancia",
             "area": "Matemática",
             "created_at": 1593046175934
-        },
-        {
-            "id": 7,
-            "name": "FELIPE",
-            "avatar_url": "https://rogersbh.org/application/files/thumbnails/small/2815/3632/7168/podcastblog2.jpg",
-            "birth": 800236800000,
-            "type": "distancia",
-            "area": "Matemática",
-            "created_at": 1593046206306
-        },
-        {
-            "id": 8,
-            "name": "FELIPE2",
-            "avatar_url": "https://rogersbh.org/application/files/thumbnails/small/2815/3632/7168/podcastblog2.jpg",
-            "birth": 800236800000,
-            "type": "distancia",
-            "area": "Matemática",
-            "created_at": 1593046300639
         }
     ]
 }

@@ -1,7 +1,12 @@
 const fs = require('fs')
 const data = require('./data.json')
-const { age , date } = require('./utils')
+const { age , date } = require('./utils');
+const { json } = require('express');
 
+
+exports.table=(req,res)=>{
+    return res.render('teachers/teacher', {teachers: data.teachers})
+}
 //Mostrar
 exports.show=(req,res)=>{
     const {id} = req.params

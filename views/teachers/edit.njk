@@ -8,10 +8,11 @@
         <section class="details">
             <form class="form" method="POST" action="/teachers?_method=PUT">
                 {%include 'teachers/fields.njk'%}
-            </form>
-            <form class="form-delete" action="/teachers?_method=DELETE" method="post">
                 <input type="hidden" name="id" value={{teachers.id}}>
                 <button id="edit" type="submit">Editar</button>
+            </form>
+            
+            <form class="form-delete" action="/teachers?_method=DELETE" method="post">
                 <input type="hidden" name="id" value={{teachers.id}}>
                 <button id="delete"type="submit">Deletar</button>
             </form>
