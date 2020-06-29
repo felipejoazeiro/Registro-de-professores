@@ -1,7 +1,6 @@
 const fs = require('fs')
-const data = require('./data.json')
-const { age , date } = require('./utils');
-const { json } = require('express');
+const data = require('../data.json')
+const { age , date } = require('../utils');
 
 
 exports.table=(req,res)=>{

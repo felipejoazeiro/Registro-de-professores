@@ -54,6 +54,7 @@ body{
 
 /*=== CARD ===*/
 
+
 .card{
     background-color: var(--primary-color);
     width: 800px;
@@ -73,7 +74,20 @@ body{
         opacity: 1;
     }
 }
-
+.create{
+    background-color: darkcyan;
+    margin-bottom: 25px;
+    display: inline-block;
+    width: 60px;
+    padding: 8px;
+    text-align: center;
+    background-color: rgb(27, 173, 105);
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+    font-size: 14px;
+    border-radius: 6px;
+}
 .item{
     font-family: 'Roboto', sans-serif;
 }

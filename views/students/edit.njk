@@ -4,17 +4,17 @@
 {% endblock style %}
 {% block content %}
     <div class="card">
-        <section class="img" style="background: url(https://source.unsplash.com/collection/8874679/500x500) no-repeat center center / cover"></section>
+        <section class="img" style="background: url({{students.avatar_url}}) no-repeat center center / cover"></section>
         <section class="details">
-            <form class="form" method="POST" action="/teachers?_method=PUT">
-                {%include 'teachers/fields.njk'%}
-                <input type="hidden" name="id" value={{teachers.id}}>
+            <form class="form" method="POST" action="/students?_method=PUT">
+                {%include 'students/fields.njk'%}
+                <input type="hidden" name="id" value={{students.id}}>
                 <button id="edit" type="submit">Editar</button>
             </form>
             
-            <form id="form-delete" class="form-delete" action="/teachers?_method=DELETE" method="post">
-                <input type="hidden" name="id" value={{teachers.id}}>
-                <button id="delete"type="submit">Deletar</button>
+            <form id="form-delete"class="form-delete" action="/students?_method=DELETE" method="post">
+                <input type="hidden" name="id" value={{students.id}}>
+                <button id="delete"type = "submit">Deletar</button>
             </form>
         </section>
         <script>

@@ -1,0 +1,36 @@
+<div class="item">
+    <div>Nome</div>
+    <div><input type="text" name="name" placeholder="Nome" value="{{students.name}}"></div>
+</div>
+<div class="item">
+    <div>Email:</div>
+    <div><input type="email" name="email" placeholder="exemplo@exem.com" value="{{students.email}}"></div>
+</div>
+<div class="item">
+    <div>Ano de Nascimento</div>
+    <div><input type="date" name="birth" value="{{students.birth}}"></div>
+</div>
+<div class="item">
+    <div>Ano escolar:</div>
+    <div>
+        <select name="schooling">
+            <option value="none" data-default disabled selected>{{students.schooling}}</option>
+            <option value="5° Ano">5° Ano</option>
+            <option value="6° Ano">6° Ano</option> 
+            <option value="7° Ano">7° Ano</option> 
+            <option value="8° Ano">8° Ano</option>
+            <option value="9° Ano">9° Ano</option>
+            <option value="1° Médio">1° Médio</option> 
+            <option value="2° Médio">2° Médio</option> 
+            <option value="3° Médio">3° Médio</option>  
+        </select>
+    </div>
+</div>
+<div class="item">
+    <div>Carga de hora semanal:</div>
+    <div><input type="number" name="hour" value="{{students.hour}}"></div>
+</div>
+<div class="item">
+    <div>Avatar</div>
+    <div><input type="url" name="avatar_url" placeholder="https://" value="{{students.avatar_url}}"></div>
+</div>
